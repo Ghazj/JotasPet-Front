@@ -1,0 +1,85 @@
+.listado{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.turnCard{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff93;
+    width: 450px;
+    border: solid blue 2px;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+}
+
+
+
+.list-title{
+    margin: 20px;
+    background-color: #ffffff9f;
+    width: 470px;
+    margin-inline: auto;
+    border: solid blue 2px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.numerador-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.numerador{
+    text-align: start;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#confirmButton{
+width: 80px;
+height: 40px;
+border: solid black 0.5px;
+background-color: #008000;
+color: #ffffff;
+}
+
+#discardButton{
+    width: 80px;
+    height: 40px;
+    border: solid black 0.5px;
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+@media (max-width: 500px) {
+    .listado{
+        text-align: left;
+        width: 100%;
+    }
+
+    .list-title{
+        width: 300px;
+    }
+
+    .turnCard{
+        width: 300px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .numerador{
+        font-size: xx-large;
+    }
+  }

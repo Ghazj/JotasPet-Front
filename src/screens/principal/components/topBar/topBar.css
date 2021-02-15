@@ -1,0 +1,25 @@
+.topBar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+}
+
+h1{
+    margin: 0;
+}
+
+.divLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.logo{
+    width: 90px;
+}
