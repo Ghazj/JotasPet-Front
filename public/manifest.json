@@ -1,11 +1,16 @@
 {
   "short_name": "Jotas Pet",
-  "name": "Jotas Pet App",
+  "name": "Jotas Pet",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "Logo Jotas.png",
+      "type": "image/png",
+      "sizes": "1800x1800"
     }
   ],
   "start_url": ".",
